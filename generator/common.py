@@ -9,3 +9,15 @@ class Direction(Enum):
     y_reverse = auto()
     z = auto()
     z_reverse = auto()
+
+
+class CanNotGenerateError(Exception):
+    pass
+
+
+class NoMorePoints(Exception):
+    pass
+
+
+class InitCatalogError(Exception):
+    pass
