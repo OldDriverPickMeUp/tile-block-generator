@@ -12,15 +12,18 @@ Generated Image:
 
 <img src="https://github.com/OldDriverPickMeUp/tile-block-generator/blob/master/examples/output-(15,%2015)-71482345.png?raw=true" alt="output" width="300" height="300" />
 
-## get started
 
-### requiements
+## Get Started
 
-You will need at least python version 3. And then install all the requirements
+You can use this [tool](https://tile-block-generator-ui.sssssinter.now.sh/) to make your own example.
+ 
+You can also go to [tile-block-generator-ui](https://github.com/OldDriverPickMeUp/tile-block-generator-ui) and build by yourself.
 
-`pip install -r requirements.txt`
+### Requiements
 
-### generate tile blocks
+You will need at least python version 3. And then install all the requirements `pip install -r requirements.txt`.
+
+### Generate Tile Blocks
 
 For example
  
@@ -32,7 +35,7 @@ The output layout has a size of 15 * 15. And all the tile images under folder `.
 
 Check `./examples/example-json.png` to see the image of example.
 
-### tool usage
+### Usage
 
 `python tool.py --help` and you will get the following response:
 
@@ -52,17 +55,12 @@ Options:
 ```
 
 
-### folders
+### Folders
 
 - /dev for development and test use
 - /examples/tiles/ example tiles downloaded from unity store
 - /examples/example.json example reference
 - /generator all generator code
 
-## UI
-
-I developed an browser interface to edit the example/input/reference data. In this repo: [tile-block-generator-ui](https://github.com/OldDriverPickMeUp/tile-block-generator-ui).
-
-So it's possible to create arbitrary tile block layout reference with arbitrary tiles.
 
 
