@@ -5,13 +5,12 @@ This repo implements a simple tile block generator like the so called wave colla
 It's mainly based on this [dissertation](http://www.logarithmic.net/pfh/thesis).
 
 Input Image:
-<img src="https://github.com/OldDriverPickMeUp/tile-block-generator/blob/master/examples/example-json.png?raw=true" alt="input" width="200" height="200" />
 
-<!--![input](https://github.com/OldDriverPickMeUp/tile-block-generator/blob/master/examples/example-json.png?raw=true "input image")-->
+<img src="https://github.com/OldDriverPickMeUp/tile-block-generator/blob/master/examples/example-json.png?raw=true" alt="input" width="300" height="300" />
 
 Generated Image:
 
-![output](https://github.com/OldDriverPickMeUp/tile-block-generator/blob/master/examples/output-(15,%2015)-71482345.png?raw=true "Output image")
+<img src="https://github.com/OldDriverPickMeUp/tile-block-generator/blob/master/examples/output-(15,%2015)-71482345.png?raw=true" alt="output" width="300" height="300" />
 
 ## get started
 
