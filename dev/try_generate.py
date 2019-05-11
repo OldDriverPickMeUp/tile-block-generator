@@ -1,5 +1,8 @@
 import random
+import sys
+import os
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dev.helpers import enable_debug_log
 from dev.try_image_reader import get_example_reader
 from dev.try_read_rules import get_matrix_data
@@ -29,4 +32,4 @@ def find_a_seed_can_generate(size, file_prefix):
 
 if __name__ == '__main__':
     # enable_debug_log()
-    find_a_seed_can_generate((20, 20), 'generate')
+    find_a_seed_can_generate((15, 15), 'generate')

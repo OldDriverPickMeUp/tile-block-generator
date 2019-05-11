@@ -1,6 +1,9 @@
 import logging
 import random
 import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dev.helpers import enable_debug_log, enable_info_log
 from dev.try_image_reader import get_example_reader

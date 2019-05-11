@@ -1,4 +1,8 @@
 import numpy as np
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from generator.output import Output
 from dev.try_image_reader import get_example_reader

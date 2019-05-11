@@ -1,3 +1,7 @@
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dev.try_output import get_example_mat
 from generator.core import MatrixData
 from generator.readers import MatrixTReader2D
