@@ -5,7 +5,7 @@ import random
 import pandas as pd
 import numpy as np
 
-from generator.common import CanNotGenerateError, NoMorePoints, InitCatalogError
+from .common import CanNotGenerateError, NoMorePoints, InitCatalogError
 from .actions import RootNode, PointSelect, ActionNode, CategorySelect
 from .output import Output
 from .common import Direction
@@ -51,7 +51,7 @@ class MatrixT2D(_MatrixT):
         try:
             row = mat.loc[tile_block_category]
             return self._find_true_set(row)
-        except IndexError:
+        except (IndexError, KeyError):
             return []
 
 

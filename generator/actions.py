@@ -1,6 +1,6 @@
 from enum import Enum, auto
 
-from generator.common import CanNotGenerateError
+from .common import CanNotGenerateError
 
 
 class ActionStatus(Enum):
