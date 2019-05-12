@@ -2,7 +2,7 @@
 
 This repo implements a simple tile block generator like the so called wave collapse function approach.
 
-It's mainly based on this [dissertation](http://www.logarithmic.net/pfh/thesis).
+It's mainly based on this [dissertation](http://graphics.stanford.edu/~pmerrell/thesis.pdf).
 
 Input Image:
 
